@@ -2,24 +2,9 @@ package com.isaac;
 
 import java.util.Arrays;
 
-public class MergeSorting {
-    public static void main(String[] args) {
-        int count = 1000000000;
-        while (count > 0) {
-            int length = (int) (Math.random() * 1000 + 1);
-            int[] ints = new int[length];
-            for (int i = 0; i < length; i++) {
-                ints[i] = (int) (Math.random() * 1000);
-            }
-            int[] sortedInts = getAnswer(ints.clone());
-            process(ints, 0, ints.length - 1);
-            if (!compare(ints, sortedInts)) {
-                break;
-            }
-            count--;
-        }
-        System.out.println(count > 0 ? "Wrong" : "Right");
-
+public class MergeSorting implements SortingMachcing {
+    public void sort(int[] array) {
+        process(array, 0, array.length - 1);
     }
 
     static void merge(int[] ints, int lp, int mid, int rp) {
