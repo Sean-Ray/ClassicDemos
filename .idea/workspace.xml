@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b6c38cc-fc89-4756-b507-ca201112a674" name="Changes" comment="快速排序">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isaac/HeapSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isaac/SortingMachcing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isaac/Tester.java" afterDir="false" />
+    <list default="true" id="4b6c38cc-fc89-4756-b507-ca201112a674" name="Changes" comment="堆排序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/MergeSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/MergeSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/QuickSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/QuickSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662048698212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="堆排序">
+      <created>1662268407216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662268407216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +172,8 @@
     <MESSAGE value="经典题学习" />
     <MESSAGE value="1.检验方法&#10;2.归并排序" />
     <MESSAGE value="快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="快速排序" />
+    <MESSAGE value="堆排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,6 +187,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/isaac/PrintByTurnByLock.java</url>
           <line>27</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/isaac/QuickSorting.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
