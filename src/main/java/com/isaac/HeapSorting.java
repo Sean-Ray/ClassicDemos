@@ -68,7 +68,7 @@ class Heap {
     private void heapInsert(int num) {
         heap[heapSize] = num;
         int index = heapSize++;
-        while (index > 0 && heap[index] < heap[(index - 1) >> 1]) {
+        while (heap[index] < heap[(index - 1) / 2]) {
             swap(index, (index - 1) >> 1);
             index = (index - 1) >> 1;
         }

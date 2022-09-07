@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Tester {
     public static void main(String[] args) {
-        beginTesting(1000, 1000000000, 200000, new QuickSorting());
-//        beginTesting(10000, 1000, 10000, new QuickSorting());
+        beginTesting(1000, 1000000000, 200000, new BucketSorting());
+//        beginTesting(10, 200, 7, new BucketSorting());
     }
 
     static <T extends SortingMachcing> void beginTesting(int testTimes, int maximum, int maxArrayLength, T SortingClass) {
